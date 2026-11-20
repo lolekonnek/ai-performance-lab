@@ -1,0 +1,58 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# C++ / CMake
+build/
+cmake-build-*/
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# CUDA
+*.cubin
+*.fatbin
+*.ptx
+
+# AI models and weights
+*.gguf
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.bin
+models/
+weights/
+checkpoints/
+
+# Cache
+.cache/
+cache/
+tmp/
+temp/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs and results
+*.log
+benchmark_results/
+
